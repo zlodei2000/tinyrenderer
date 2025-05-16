@@ -1,3 +1,8 @@
+
+#ifndef M_PI
+#define M_PI 3.1415926
+#endif
+
 #ifndef __IMAGE_H__
 #define __IMAGE_H__
 
@@ -19,6 +24,8 @@ struct TGA_Header {
     char  imagedescriptor;
 };
 #pragma pack(pop)
+
+
 
 struct TGAColor {
     unsigned char bgra[4];
